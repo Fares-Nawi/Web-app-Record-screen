@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/signup.css"  rel="stylesheet" type="text/css">
+    <title>YoutuberTool</title>
+  </head>
+  <body>
+    
+    <div class="settitle">
+  <h1><span>Y</span>outuberTool</h1>
+ </div>
+
+ <form action="/signup" method="POST" >
+    <div class="login-form">
+    
+
+        	<div  class="box">
+ <% if(err) { %>
+  <p ><%= err %></p>
+  <% } %>
+
+  
+
+ 
+				<input type="text" autocomplete="off" name="username" placeholder="Username" />
+				<input type="password" autocomplete="off" name="password" placeholder="Password" />
+			<input type="password" autocomplete="off" name="confirm_password" placeholder="Confirm Password" />	
+				
+				<div class="setbutton">
+					  
+					  <button>signup</button>
+				    <a href="/login">Login</a>
+				  </div> 
+			   </div>
+      
+        
+      </form>
+     
+    </div> 
+    
+   
+  </body>
+</html>

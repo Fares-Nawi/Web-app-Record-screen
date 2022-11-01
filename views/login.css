@@ -1,0 +1,61 @@
+body{
+    background-color: #020a0a;
+}
+
+
+.settitle{
+    position:relative;
+    text-align: center;
+    top: 2%;
+    left: auto;
+}
+.box{
+    position:relative;
+    text-align: center;
+    top: 2%;
+    left: 35%;  
+    width: 400px;
+    border-radius: 12px;
+    background-color: rgb(31, 28, 28);
+}
+input[type=text],input[type=password]{
+    background-color: darkgray;
+    border-radius: 8px;
+     width: 200px;
+     height: 50px;
+    margin: 12px;
+}
+
+.setbutton{
+    position:relative;
+    text-align: center;
+    top: 50%;
+    left: auto;
+}
+span{
+    color: red;
+    font-weight:500px ;
+}
+
+h1{
+  color: white;  
+  font-size: 5em;
+
+}
+
+button{
+    background-color: #3afa74;
+    border-radius: 8px;
+    font-size: 1.5em;
+    width: 150px;
+    margin: 5px;
+}
+a{
+  color: white;
+}
+p{
+     
+        
+          
+         color: red;
+     }

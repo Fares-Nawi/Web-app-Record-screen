@@ -1,0 +1,4 @@
+{
+  "//": "ADD your database URL in mongoURI",
+  "mongoURI": "mongodb+srv://test:test123@cluster0.gvsu4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

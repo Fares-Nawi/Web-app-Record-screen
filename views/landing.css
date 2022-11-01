@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body{
+    background-color: rgb(31, 28, 28);
+
+      font-size: 15px;
+
+  
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius:4px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin: 4px;
+    align-items: center;
+    padding : 10px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+span{
+    color:red;
+}
+.nav a{
+  color: #000;
+  background:none;
+  border-style:groove;
+  border-color: #0e1410bb;
+  font-size: 1.1em;
+  font-weight: 200;
+  padding: 0.5rem;
+  margin-right: 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.nav a:hover{
+    background-color:#3afa74;
+}
+
+
+
+
+
+
+.main{
+background-color: #020a0a;
+position: relative;
+min-height: 100vh;
+min-width: 125vh;
+align-items: center;
+display: flex;
+margin: 4px;
+border-radius:8px ;
+padding: 30px;
+background-size: cover;
+background-position: center;
+background-size: 100%;
+
+}
+.page-definition{
+    background-color:#020a0a;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    
+    border-radius:14px ;
+    margin: 4px;
+    background-size: cover;
+    background-position: center;
+    }
+.main h2,.page-definition h2{
+    font-size: 5em;
+    color: white;
+    font-weight: 500;
+        
+}
+
+/*.main h3{
+      font-size: 2.4em;
+      color: rgb(219, 26, 100);
+      font-weight: 500;
+
+      letter-spacing: 1px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+}*/
+
+
+
+  
+  /* DEMO-SPECIFIC STYLES */
+  .main .typewriter  h3  , .page-definition .typewriter h3{
+    color: white;
+    font-size: 1.9em;
+    /*font-family: monospace;*/
+    font-family: 'Anonymous Pro';
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+
+  .container{
+  position: relative;
+  display: flex;
+  
+  justify-content: center;
+  max-width: 2000px;
+  flex-wrap: wrap;
+  
+  
+  
+  }
+  
+
+  .container .card{
+    position:relative;
+    
+    background-image: url('./youtubertool2.png');
+    background-size: 580px 350px;
+    top:auto;
+    width: 580px;
+    height: 350px;
+    
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.918),
+                inset -5px -5px 5px rgba(0, 0, 0, 0.541),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.562),
+                inset -5px -5px 5px rgba(5, 4, 4, 0.788);
+     border-radius: 15px;
+     margin: 30px;           
+     transition: 0.7s;
+    }
+    .container .card2{
+      position:relative;
+      
+      background-image: url('./youtubertool3.png');
+      background-size: 580px 350px;
+      top:auto;
+      width: 580px;
+      height: 350px;
+      
+      box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.918),
+                  inset -5px -5px 5px rgba(0, 0, 0, 0.541),
+                  inset 5px 5px 5px rgba(0, 0, 0, 0.562),
+                  inset -5px -5px 5px rgba(5, 4, 4, 0.788);
+       border-radius: 15px;
+       margin: 30px;    
+       transition: 0.7s;       
+      
+      }
+
+      .container .card:hover , .container .card2:hover{
+        transform: translateY(-20px);
+      }
+
+  p{
+      color :rgb(219, 26, 100);
+      font-size: 1.3em;
+  }
+  
+.put-in-center{
+  align-items: center;
+
+}
+.put-in-center h3{
+  font-size: 1.9em;
+  color: white;
+}
+footer{
+  background-color:#020a0a ;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  margin-bottom: -20px;
+}
+footer h3{
+  color: white;
+}
+@media (max-width:1045px){
+  header{
+      padding: 8px 20px;
+  }
+  .navigation a{
+      padding-left: 10px;
+  }
+  .title{
+      font-size: 1.8em;
+  }
+
+  section{
+      padding :80px 20px;
+  }
+
+  .main-content h2{
+      font-size: 1em;
+  }
+
+  .main-content h3{
+      font-size: 1.6em;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width:600px){
+  body{
+      font-size: 6px;
+  }
+  header{
+   width: 63%;
+}
+  .container .card,.container .card2{
+    background-size: 400px 220px;
+    top:auto;
+    width: 400px;
+    height: 220px;
+  }
+
+
+ h3{
+   font-size: 0.9em;
+ }
+}
+@media (max-width:300px){
+  body{
+      font-size: 8px;
+  }
+ .main-content h2{
+     font-size: 0.5em;
+ }
+
+ .main-content h3{
+  font-size: 0.9em;
+}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dashboard.css" rel="stylesheet">
+    <!--<title>YoutuberTool</title>
+    <style>
+      body{
+    background-color: rgb(31, 28, 28);
+} 
+
+h3{
+  color: white;  
+  font-size: 5em;
+
+}
+       button{
+         background-color: #3afa74;
+         border-radius: 8px;
+         font-size: 1.5em;
+         width: 150px;
+         margin: 5px;
+     }
+    </style>
+  </head>
+  <body>
+    <h3>Welcome to you acount</h3>
+  -->
+  <header>
+    <div class="settitle">
+        <h1><span>Y</span>outuberTool</h1>
+     </div>
+
+  </header>
+
+  <main class="overflow-hidden">
+     <div>
+         
+        <video  src="" autoplay  width="855"  height="480" class="video-feedback center padding color"></video>
+        <button class="start-recording center ">start</button>
+        <button class="stop-recording center " disabled>stop</button>
+         <div class="recorded-video-warp">
+             
+             <div class="settitle">
+                <h2>Download your video</h2>
+             </div>
+             <video src="" width="920"  height="480" controls class="recorded-video center padding"></video>
+             <br>
+             <br>
+             <div>
+                <button class="center"><a href="" class="download-video center white">Download</a></button> 
+             </div>
+         </div>
+
+     </div>
+
+  </main>
+  <script src="./main.js"></script>
+
+    <form action="/logout" method="POST">
+      <button class="red" >Logout</button>
+    </form>
+  </body>
+</html>
