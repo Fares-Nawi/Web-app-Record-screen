@@ -24,7 +24,7 @@ exports.verify_post = async (req, res) => {
    });
    const mailOptions = {
      from: 'sender@email.com', // sender address
-     to: 'faresnaoui2@gmail.com', // list of receivers
+     to: 'example@gmail.com', // list of receivers
      subject: 'Subject of your email', // Subject line
      html: '<p>Your html lkjlkjlkmljlhere</p>'// plain text body
    };
